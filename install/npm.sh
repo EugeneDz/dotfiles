@@ -19,7 +19,6 @@ npm config set save-exact = true
 
 packages=(
     serve
-    how2
     gulp
     eslint
     stylelint
