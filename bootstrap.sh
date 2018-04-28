@@ -59,14 +59,6 @@ create_symlink() {
 create_symlink $DOTFILES_DIR/git/.gitconfig $HOME/.gitconfig
 create_symlink  $DOTFILES_DIR/git/.gitignore_global $HOME/.gitignore_global
 
-# Vim
-create_symlink $DOTFILES_DIR/lib/vim-plug/plug.vim $HOME/.vim/autoload/plug.vim
-create_symlink $DOTFILES_DIR/vim/.vimrc $HOME/.vimrc
-
-# Neovim
-create_symlink $HOME/.vim $HOME/.config/nvim
-create_symlink $HOME/.vimrc $HOME/.config/nvim/init.vim
-
 # Zsh
 create_symlink $DOTFILES_DIR/zsh/.zshrc $HOME/.zshrc
 
