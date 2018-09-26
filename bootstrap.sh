@@ -57,10 +57,13 @@ create_symlink() {
 # All the symlinks
 # Git
 create_symlink $DOTFILES_DIR/git/.gitconfig $HOME/.gitconfig
-create_symlink  $DOTFILES_DIR/git/.gitignore_global $HOME/.gitignore_global
+create_symlink $DOTFILES_DIR/git/.gitignore_global $HOME/.gitignore_global
 
 # Zsh
 create_symlink $DOTFILES_DIR/zsh/.zshrc $HOME/.zshrc
+
+# Vim
+create_symlink $DOTFILES_DIR/vim/.vimrc $HOME/.vimrc
 
 # Set macOS defaults
 # Require password as soon as screensaver or sleep mode starts
@@ -74,5 +77,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-echo "Bootstrapping complete"
+# Prevent Photos from opening automatically when devices are plugged in
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
+echo "Bootstrapping complete"

@@ -1,0 +1,6 @@
+# Ask for the administrator password upfront
+sudo -v
+
+# Install Vim Plug | Vim Plugin Manager
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

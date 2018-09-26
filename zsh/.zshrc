@@ -97,6 +97,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Source to Node Version Manager
 source ~/.nvm/nvm.sh
-
-# Vim alias
-alias 'vim'=/usr/local/Cellar/vim/8.0.1450/bin/vim

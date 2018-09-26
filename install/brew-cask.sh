@@ -25,7 +25,7 @@ apps=(
     discord
     sequel-pro
     mamp
-    brew cask install filezilla
+    filezilla
 )
 
 for item in ${apps[*]}

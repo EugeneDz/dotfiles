@@ -24,9 +24,6 @@ brew upgrade --all
 
 # Install the Homebrew packages I use on a day-to-day basis.
 #
-# - Fuck (https://github.com/nvbn/thefuck): Correct your previous command. Note
-#   that this needs to be added to zsh or bash. See the project README.
-#
 # - tldr (https://github.com/tldr-pages/tldr): A collection of simplified and
 #   community-driven man pages.
 #
@@ -35,21 +32,12 @@ brew upgrade --all
 #   colorized ala dircolors if the LS_COLORS environment variable is set and
 #   output is to tty.
 #
-# - ack (https://beyondgrep.com): ack is a tool like grep, optimized for programmers
-#
-# - diff-so-fancy (https://github.com/so-fancy/diff-so-fancy): diff-so-fancy strives
-#   to make your diff's human readable instead of machine readable. This helps
-#   improve code quality and help you spot defects faster.
-#
 # - wifi-password (https://github.com/rauchg/wifi-password): People ask you for the
 #   Wi-Fi password. Answer quickly.
 
 apps=(
-    thefuck
     tldr
     tree
-    ack
-    diff-so-fancy
     wifi-password
     cmake
 )

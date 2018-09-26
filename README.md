@@ -5,12 +5,10 @@
 
 This repo for tracking dotfiles that I use for personalize my OS X including tools and software which I use daily. They should be cloned to the home directory and then a setup script creates symlinks from the home directory to the files which are located in `~/dotfiles/.` and install the software.
 
-**Note** I prefer to use the iTerm port of [Oceanic Next Theme](https://github.com/voronianski/oceanic-next-theme/) as a default terminal theme.
-
 ### Features
 ---
  - Git aliases
- - Vim & Neovim config
+ - Vim
  - Brew & Brew Cask apps
  - Node Version Manager
  - NPM packages 

@@ -19,9 +19,6 @@ npm config set save-exact = true
 
 packages=(
     serve
-    gulp
-    eslint
-    stylelint
 )
 
 for item in ${packages[*]}
