@@ -9,6 +9,12 @@ Plug 'tomasiser/vim-code-dark'
 " Syntax and indent plugin for React jsx
 Plug 'chemzqm/vim-jsx-improve'
 
+" JavaScript bundle for vim, this bundle provides syntax highlighting and improved indentation.
+Plug 'pangloss/vim-javascript'
+
+" Asynchronous linting/fixing for Vim and Language Server Protocol (LSP) integration
+Plug 'w0rp/ale'
+
 " Initialize plugin system
 call plug#end()
 
