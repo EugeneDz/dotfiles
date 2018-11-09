@@ -11,7 +11,6 @@ brew tap caskroom/versions
 # Install packages
 apps=(
     spectacle
-    flux
     termhere
     iterm2
     visual-studio-code
@@ -23,7 +22,6 @@ apps=(
     slack
     telegram-desktop
     discord
-    sequel-pro
     mamp
     filezilla
 )
