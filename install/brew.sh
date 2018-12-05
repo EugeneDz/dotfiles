@@ -34,12 +34,18 @@ brew upgrade --all
 #
 # - wifi-password (https://github.com/rauchg/wifi-password): People ask you for the
 #   Wi-Fi password. Answer quickly.
+#
+# - diff-so-fancy (https://github.com/so-fancy/diff-so-fancy): diff-so-fancy strives
+# to make your diff's human readable instead of machine readable. This helps improve
+# code quality and help you spot defects faster.
+#
 
 apps=(
     tldr
     tree
     wifi-password
     cmake
+    diff-so-fancy
 )
 
 for item in ${apps[*]}
