@@ -95,5 +95,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+# Copy data to clipboard
+alias "c=clipcopy"
+
 # Source to Node Version Manager
 source ~/.nvm/nvm.sh
