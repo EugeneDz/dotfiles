@@ -24,6 +24,7 @@ apps=(
     discord
     mamp
     filezilla
+    quicklook-json
 )
 
 for item in ${apps[*]}
